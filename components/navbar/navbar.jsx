@@ -29,10 +29,10 @@ export default function navbar() {
               <Link href="/canva">Canva</Link>
             </li>
             <li>
-              <Link href="/Drive">Prezi</Link>
+              <Link href="/Prezi">Prezi</Link>
             </li>
             <li>
-              <Link href="/Prezi">drive</Link>
+              <Link href="/Drive">drive</Link>
             </li>
           </ul>
         </li>
