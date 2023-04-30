@@ -1,0 +1,41 @@
+.Navbar {
+  background-color: #5a5062;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  font-family: "Abril Fatface", cursive;
+  font-family: "Itim", cursive;
+}
+.Navbar .ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+}
+.li {
+  margin-top: 20px;
+}
+.desplegable {
+  display: inline-block;
+  position: relative;
+}
+.logo {
+  border-radius: 100%;
+}
+.Navbar ul ul {
+  list-style: none;
+  display: none;
+  background-color: #5a5062;
+  font-size: 30px;
+  height: 150px;
+  width: 200px;
+}
+.Navbar li:hover > ul {
+  display: inherit;
+}
+.Navbar ul ul li {
+  margin: 0 10px 0;
+}

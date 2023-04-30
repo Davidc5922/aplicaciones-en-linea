@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+.Cont {
+  position: relative;
+  top: 100px;
+  margin-bottom: 140px;
+  z-index: -100;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  font-family: "Righteous", cursive;
+}
+.titulo {
+  font-size: 80px;
+}
+.Descripcion {
+  width: 75%;
+}
+.paso {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: space-between;
+  width: 100%;
+}
+.IMGpaso {
+  height: 500px;
+  width: 500px;
+}
+.video {
+  height: 500px;
+  width: 500px;
+  margin-bottom: 100px;
+}
